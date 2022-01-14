@@ -1,0 +1,24 @@
+<div class="container">
+<div class="nav">
+  <nav>
+    <ul class = "navbar">
+      <li><h2>Simple Airbnb</h2></li>
+      <li><button>"Add a flat"</button></li>
+    </ul>
+  </nav>
+</div>
+
+<div class="cards">
+<% @flats.each do |flat| %>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"><%= flat.name %></h5>
+    <h6 class="card-subtitle mb-2 text-muted"><%= flat.address %></h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<% end %>
+
+</div>
+
+</div>

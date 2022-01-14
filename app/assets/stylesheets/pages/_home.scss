@@ -1,0 +1,27 @@
+// Specific CSS for your home-page
+.container{
+margin: 0;
+padding: 0;
+}
+
+.navbar {
+position: sticky;
+padding: 2;
+width: 100vw;
+display: inline-flex;
+justify-content: space-between;
+list-style: none;
+background-color: lightblue;
+height:20vh;
+}
+
+.cards {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.card {
+  padding-top: 0;
+  padding-bottom: 0;
+}
